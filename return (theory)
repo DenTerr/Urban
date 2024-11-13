@@ -1,0 +1,17 @@
+def func_1(a):
+    def func_2(b):
+        return a-b
+    return func_2
+
+x = func_1(100)
+print ("The value of a-b is", x(50))
+
+def another_func(a):
+    return a*10
+
+def func():
+    return another_func
+
+y = func()
+print ("\nThe value of a*b is" y(10))
+
