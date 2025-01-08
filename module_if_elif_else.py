@@ -11,3 +11,6 @@ if first == second == third :
 
 elif first == second != third or first != second == third or first == third != second or first != third == second:
     print(2)
+
+else:
+    print(0)
